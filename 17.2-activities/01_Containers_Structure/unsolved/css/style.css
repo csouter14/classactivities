@@ -1,0 +1,74 @@
+/*  Hi! your going to write styles here in the next couple activities. */
+.header {
+    height:250px;
+    max-height:500px;
+    background-image: url(../images/upsBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+
+}
+
+#pagetopic {
+    textalign: center;
+}
+
+.color-container {
+    display:inline-block;
+    margin:15px;
+}
+
+.swatch {
+    height:200px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+.hex-code {
+    padding: 15px;
+    text-align:center;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+
+}
+
+.type-container {
+    display: inline-block;
+    margin:20px;
+}
+
+.botton {
+    display:inline-block;
+    padding: 5px;
+    margin:15px;
+    width:150px;
+    text-align: center;
+    color: white;
+}
+
+.darkblue {
+    background-color: #333366;
+}
+.darkgray {
+    background-color: #545454;
+}
+.lightgray {
+    background-color: #E3E3E3;
+}
+.white {
+    background-color: #ffffff;
+}
+.lightblue {
+    background-color: #12a0f6;
+}
+.red {
+    background-color: #F84848;
+}
+.orange {
+    background-color: #fc7705;
+}
+#lightgreen {
+    background-color: #8abe48;
+}
