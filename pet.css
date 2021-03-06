@@ -1,0 +1,26 @@
+nav {
+    background-color: beige;
+    height:50px;
+}
+.menu-item {
+    display:inline-block;
+    padding:10px;
+    text-align:center;
+    width:100px;
+    vertical-align: middle;
+ }
+ 
+ .sidebar {
+     width:29%;
+
+.main-content {
+    width:70%;
+    float: left;
+    
+
+
+}
+ }
+ .mainpic {
+     width:250px;
+ }
