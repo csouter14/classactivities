@@ -1,0 +1,23 @@
+.item1 {grid-area:one}
+.item2 {grid-area:two}
+.item3 {grid-area:three}
+.item4 {grid-area:four}
+
+.grid-container {
+    display:grid;
+    background-color: lightblue;
+
+    grid-template-areas:
+    'one two'
+    'one four'
+    'one three';
+
+    grid-template-rows: 25% 50% 25%;
+    grid-template-columns: 10%
+}
+
+.item1,.item2,.item3,.item4 {
+    background-color: salmon;
+    padding:20px;
+    margin:10px;
+}
