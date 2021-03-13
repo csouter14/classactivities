@@ -17,6 +17,7 @@ body {
 }
 .rotate img {
 /* Write your rotate transform here */
+transform: rotate(180deg);
 }
 .scale {
   grid-area: scale;
@@ -30,7 +31,7 @@ body {
   background-color: red;
   margin: 0 auto;
   /* Write the scale transform here */
-
+  transform:scale(2,4)
 }
 .translate {
   grid-area: translate;
@@ -43,10 +44,15 @@ body {
   height: 100px;
   background-color: blue;
   /* Write the translate transform here */
+transform:translate(80%, 40%);
 }
 
 .gridChild {
   background-color: lightgrey;
   border: 1px solid lightblue;
   margin: 15px 0px;
+}
+.hoverMe:hover {
+  background-color: #ff0000;
+  transform: scale(2,4)
 }
